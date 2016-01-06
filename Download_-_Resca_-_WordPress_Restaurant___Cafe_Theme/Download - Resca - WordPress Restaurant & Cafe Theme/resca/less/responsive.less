@@ -1,0 +1,246 @@
+@media (min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}
+
+	.siteorigin-panels-stretch {
+		margin-left:   -385px;
+		margin-right:  -385px;
+		padding-left:  385px;
+		padding-right: 385px;
+		&.thim-fix-stretched {
+			padding-left:  0;
+			padding-right: 0;
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.thim-widget-event .item-event .event-thumbnail {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.list-html-content {
+		margin-bottom: 50px;
+		.item-content {
+			padding-left: 0;
+		}
+		.col-sm-6:nth-child(2n) {
+			padding-right: 0;
+			padding-left:  45px;
+		}
+	}
+
+	.filter-restaurant {
+		.erm_product {
+			width: 100%;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.top_site_main {
+		img {
+			position: absolute;
+			height:   100%;
+			left:     0;
+			right:    0;
+		}
+		.page-title-wrapper {
+			position: static;
+			padding:  15px 0;
+			.banner-description p {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	// widget list html content
+	.list-html-content {
+		text-align:     left;
+		position:       relative;
+		padding-bottom: 0;
+		margin-bottom:  50px;
+		.line-center {
+			display: none;
+		}
+		.item-content {
+			padding: 10px 0;
+		}
+	}
+
+	.erm_menu_content.menu_content_two_column {
+		li.erm_product {
+			width: 100%;
+		}
+	}
+
+	.newletter {
+		display:    block;
+		text-align: center;
+		.widget-title, .textwidget {
+			display:    block;
+			text-align: center;
+		}
+		.widget-title {
+			padding-left: 0;
+		}
+	}
+
+	.otw-wrapper {
+		.col-sm-3 {
+			margin-bottom: 25px;
+		}
+		.otw-button-wrap {
+			margin-bottom: 0;
+		}
+	}
+
+	.border-widget {
+		.panel-grid-cell {
+			width:         50% !important;
+			float:         left !important;
+			margin-bottom: 30px;
+			&:nth-child(1) {
+				padding-right: 15px !important;
+			}
+			&:nth-child(2) {
+				padding-left: 15px !important;
+			}
+			&:last-child {
+				margin-top: 25px !important;
+				width:      100% !important;
+			}
+		}
+	}
+
+	.border-widget .widget.so-panel {
+		min-height: inherit;
+	}
+
+	.wrapper-gallery-filter .fancybox{
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+}
+
+@media ( max-width: 600px ) {
+	.top_site_main {
+		height: auto;
+	}
+
+	.thim-widget-event .item-event {
+		display: block;
+		.event-thumbnail, .content-item, .content-right {
+			display:  block;
+			width:    100%;
+			overflow: hidden;
+		}
+	}
+
+	.thim-widget-tab-restaurant-menu .nav-menu-tabs li a > span {
+		display: none;
+	}
+
+	.woocommerce-page, .woocommerce {
+		div.product div.images, div.product div.summary {
+			width: 100% !important;
+		}
+	}
+
+	.erm_menu_content.layout-default .erm_product.with_image {
+		a.image-popup {
+			width: 60px;
+		}
+
+		.item-left, .erm_product_price {
+			width:        100%;
+			display:      block;
+			padding-left: 15px;
+		}
+		.erm_product_price {
+			margin-top: 0;
+			padding:    0 15px 15px;
+			li {
+				display:      inline-block;
+				margin-right: 7px;
+			}
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.top_site_main {
+		.page-title-wrapper {
+			padding: 45px 0 15px;
+		}
+	}
+
+	.newletter .mc4wp-form #mc4wp_email {
+		width: 220px;
+	}
+
+	.product-grid {
+		.col-sm-6 {
+			width: 100%;
+		}
+		.product_thumb {
+			display:    block;
+			text-align: center;
+		}
+	}
+
+	.border-widget {
+		.panel-grid-cell {
+			width:         100% !important;
+			float:         none !important;
+			margin-bottom: 30px !important;
+			&:nth-child(1) {
+				padding-right: 0 !important;
+			}
+			&:nth-child(2) {
+				padding-left: 0 !important;
+			}
+		}
+	}
+
+	.thim-list-posts {
+		.post-formats-wrapper img {
+			width: 100%;
+		}
+	}
+
+	.erm_menu_content.layout-dotted .erm_product.erm_product_active .erm_product_price .name {
+		display: none;
+	}
+}
+
+@media (max-width: 320px) {
+	.width-navigation {
+		left: -260px;
+		.inner-navigation {
+			width: 260px;
+		}
+	}
+
+	.mobile-menu-open .content-pusher {
+		-webkit-transform: translate3d(260px, 0, 0);
+		transform:         translate3d(260px, 0, 0);
+	}
+}
+
+@media (max-width: 240px) {
+	.width-navigation {
+		left: -200px;
+		.inner-navigation {
+			width: 200px;
+		}
+	}
+
+	.mobile-menu-open .content-pusher {
+		-webkit-transform: translate3d(200px, 0, 0);
+		transform:         translate3d(200px, 0, 0);
+	}
+}

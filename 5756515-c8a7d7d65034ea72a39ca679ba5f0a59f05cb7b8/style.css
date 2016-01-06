@@ -1,0 +1,41 @@
+#banner {
+  margin-bottom: 50px;
+	overflow: hidden;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	clear: both;
+	background: transparent url(path/to/image/1.jpg) center center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='path/to/image/1.jpg',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='path/to/image/1.jpg',sizingMethod='scale')";
+}
+
+.wrap-center{
+	margin: 0 auto;
+	position: relative;
+	max-width: 73.231em;
+}
+
+.banner-centered {
+	text-align: center;
+	position: absolute;
+	display: block;
+	max-width: 75.231em;
+	height: inherit;
+	overflow: hidden;
+	margin-top: 100px;
+}
+
+.banner-centered h2 {
+	font-size: 5.385em;
+	line-height: 1.5;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fafafa;
+	font-weight: 100;
+	display: block;
+}
