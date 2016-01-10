@@ -29,7 +29,10 @@
 
   <!-- CSS
   __________________________________________________ -->
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
   <link rel="stylesheet" href="css/homestyles3.css">
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -40,6 +43,9 @@
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
+        <ul class="nav navbar-nav pull-left">
+          <li class="active" id='brand'><a href="#">Kismet Cafe</a></li>
+        </ul>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -48,18 +54,15 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="active" id='brand'><a href="#">Kismet Cafe</a></li>
           <li><a href="#"><span class="glyphicon glyphicon-cutlery"></span> About Us</a></li>
           <li><a href="#"><span class="glyphicon glyphicon-apple"></span> Menu</a></li>
-          <li><a href="#">Page 3</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a href="#"><span class='glyphicon glyphicon-phone'></span> Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
+
+
 
   <div class="fullscreen background parallax" style="background-image:url('images/background.png');" data-img-width="1600" data-img-height="1064" data-diff="100">
     <div class="content-a">
@@ -73,22 +76,40 @@
     </div>
 </div>
 
-<div class="not-fullscreen background parallax" style="background-color: white" data-diff="100">
+<div class="not-fullscreen background parallax" id='about' style="background-color: white; height: auto;" data-diff="100">
     <div class="content-a">
         <div class="content-b">
           <div class="title" id='hourblock'>
-            <h3 id='check'>Check the</h3>
-            <h1 id='hours'>HOURS</h1>
+
+
+                <h2 id='since'>Since</h2>
+                <h1 id='date'><bold>1994</bold></h1>
+                <img id='break' src='images/orangelinebreak.png' width='200px' height='auto'/img>
+                <div class='container'>
+                  <br/>
+                <p class='text'><bold>
+                  Kismet Cafe has been a family owned and operated restaurant.
+                  Located next to the University of Texas campus, Kismet
+                  serves hearty food that tastes just like home.
+                </bold></p>
+                <br/>
+                <p class='text'>
+                  Rated as one of the best Middle Eastern cuisines in Austin,
+                  Kismet Cafe is a good example of authentic, high-quality yet affordable food.
+                </p>
+                <br/>
+
+                </div>
           </div>
         </div>
     </div>
 </div>
 
-<div class="not-fullscreen background parallax" id='posthours' style="background-image:url('images/take1.jpg'); background-size: cover;" >
+<div class="not-fullscreen background parallax" id='posthours' style="background-image:url('images/appetizer.jpg'); background-size: cover;" >
     <div class="content-a">
         <div class="content-b">
           <div class="title" id='menublock'>
-            <h3 id='find'>Find the</h3>
+            <h3 id='find'>See the</h3>
             <h1 id='menu'>MENU</h1>
           </div>
         </div>
@@ -99,14 +120,26 @@
     <div class="content-a">
         <div class="content-b">
           <div class="title" id='hourblock'>
-            <h3 id='check'>Insert Menu</h3>
-            <h1 id='hours'>HERE</h1>
+            <h3 id='check'>Insert the</h3>
+            <h1 id='hours'>Menu</h1>
           </div>
         </div>
     </div>
 </div>
 
-<div class="not-fullscreen background parallax" style="background: orange">
+<div class="not-fullscreen background parallax" id='posthours' style="background-image: url('images/restaurant_icons/restaurant_icons.png'); background-repeat: repeat" >
+    <div class="content-a">
+        <div class="content-b">
+          <div class="title" id='menublock'>
+            <h3 id='find'>Check the</h3>
+            <h1 id='menu'>Hours</h1>
+          </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="not-fullscreen background parallax" id='footbar' style="background: orange">
     <div class="content-a">
         <div class="content-b">
           <h2>Insert copyright, contact, etc</h2>

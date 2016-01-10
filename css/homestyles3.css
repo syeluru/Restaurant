@@ -34,6 +34,7 @@ html, body {
     /* give this to all tags from html to .fullscreen */
     font-family: quicksand;
     height:100%;
+    position: relative;
 }
 .fullscreen,
 .content-a {
@@ -66,15 +67,23 @@ section {
 	background:#9ed100;
 }
 .not-fullscreen {
-    height:50%;
+    height:75%;
 }
 
 #posthours {
-  height: 40%;
+  height: 54%;
 }
 
-#hourblock {
-  margin-bottom: 15%;
+.d {
+  background-repeat: r
+}
+
+#footbar {
+  height: 40%
+}
+
+#about {
+  padding-bottom: 0px;
 }
 
 #menublock {
@@ -93,6 +102,13 @@ section {
   font-size: 70px;
   color: white; }
 
+#since {
+  font-family: kaushan;
+  font-size: 30px;
+  color: orange;
+  margin-right: 0.5%;
+}
+
 #check {
   font-family: kaushan;
   font-size: 30px;
@@ -100,6 +116,20 @@ section {
   margin-right: 0.5%;
 }
 
+#date {
+  margin-top: -0.5%;
+  font-family: proxima-bold;
+  font-size: 40px;
+  color: black;
+  margin-bottom: -10px;
+}
+
+.text {
+  font-size: 1.5em;
+  font-family: proxima;
+  margin-left: 15%;
+  margin-right: 15%
+}
 #hours {
   margin-top: -0.5%;
   font-family: proxima-bold;
@@ -117,7 +147,7 @@ section {
   margin-top: -0.5%;
   font-family: proxima-bold;
   font-size: 40px;
-  color: white; }
+  color: black; }
 
   /* style the menu button
   --------------------------------------------- */
