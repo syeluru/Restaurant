@@ -1,0 +1,63 @@
+@font-face {
+  font-family: kaushan;
+  src: url(../fonts/kaushan-script/KaushanScript-Regular.otf)
+}
+
+@font-face {
+  font-family: proxima;
+  src: url(../fonts/Proxima\ Nova\ Light.otf)
+}
+
+@font-face {
+  font-family: proxima-bold;
+  src: url(../fonts/Proxima\ Nova\ Semibold.otf)
+}
+
+@font-face {
+  font-family: quicksand-bold;
+  src: url(../fonts/quicksand/Quicksand-Bold.otf)
+}
+
+@font-face {
+  font-family: quicksand;
+  src: url(../fonts/quicksand/Quicksand-Regular.otf)
+}
+
+@font-face {
+  font-family: roman;
+  src: url(../fonts/romanserif_regular/RomanSerif.ttf)
+}
+body {
+  position: relative;
+}
+nav {
+  height: 10px;
+  background-color: black;
+  opacity: 0.5
+}
+
+.about {
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+}
+
+#since {
+  font-family: kaushan;
+  font-size: 40px;
+  margin-left: -10px;
+  color: #FFB700
+}
+
+#break {
+  padding-bottom: 8px;
+}
+#date {
+  font-family: proxima-bold;
+  font-size: 50px;
+}
+
+p {
+  font-family: proxima;
+  font-size: 1.2em;
+}
