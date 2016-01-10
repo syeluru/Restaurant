@@ -87,7 +87,8 @@ section {
 }
 
 #menublock {
-  margin-top: -8%
+  margin-top: 8%;
+  margin-bottom: 8%
 }
 
 #kismet {
@@ -143,6 +144,61 @@ section {
   margin-right: 0.5%;
 }
 
+<<<<<<< HEAD
+  <!-- MENU STUFF -->
+
+  .header{
+    padding: 0px;
+    border: 1px solid black;
+    margin: 25px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.item{
+    padding: 0px;
+    border: 1px solid grey;
+    margin: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: white;
+    align: center;
+}
+
+.caption{
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.subcaption{
+  	margin: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-style: italic;
+    color: grey;
+
+}
+
+.pic{
+	height: 100px;
+	width: 150px;
+
+
+}
+
+@media (max-width: 480px) {
+  .caption{ font-size: 15px;padding-top:5px;}
+  .subcaption{font-size: 11px; padding-bottom: 5px;}
+}
+
+<!-- MENU STUFF -->
+
+=======
+>>>>>>> ef71d01e9df57d526c52fed9dc9add7240823bcf
 #menu {
   margin-top: -0.5%;
   font-family: proxima-bold;
